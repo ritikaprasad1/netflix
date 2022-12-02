@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    padding: 4px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+
+}
+.lan{
+    height: 40px;
+    width: 100px;
+    background: transparent;
+    color: white;
+    border: 0.1 px solid white;
+    font-size: 18px;
+    margin-right: 12px;
+    
+    
+
+}
+.sign{
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: #e50914;
+    color: white;
+    border-radius: 5px;
+    margin-left: 12px;
+    font-size: 18px;
+}
+nav img{
+    height:100px;
+    
+}
+.main-container{
+    background-image: url(nbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.container{
+    background-image: linear-gradient(180deg, rgba(0,0,0,.8) 0, transparent 80%, rgba(0,0,0,.8));
+}
+.text-section{
+    text-align: center;
+    
+}
+h1{
+    
+    color: white;
+    font-size: 52px;
+    
+}
+h3{
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    margin-top: 12px;
+}
+p{
+    color: white;
+    font-weight: 100;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.landing{
+    height: 85vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.landing form{
+    
+    display: flex;
+    height: 60px;
+    width: 50%;
+    margin-top: 10px;
+    
+    
+}
+.landing form input{
+    width: 70%;
+    height: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: larger;
+}
+.landing form button{
+    width: 30%;
+    height: 100%;
+    border-radius: 2px;
+    background-color: #e50914;
+    color-scheme: white;
+    border: none;
+    font-size: 25px;
+
+}
+.TV{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-top: 10px solid #222;
+    border-bottom: 10px solid #222;
+    
+}
+.TV .text-section2{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.TV .text-section2 h1{
+    color: white;
+    font-size: 55px;
+    
+}
+.TV p{
+    color: white;
+    font-size: 28px;
+}
+.TV .TV-img{
+    height: 50%;
+    padding: 30px 30px;
+}
+.tv2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-bottom: 10px solid #222;
+    flex-direction: row;
+}
+.tv2 .text-section4{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.tv2 .text-section4 h1{
+    color: white;
+    font-size: 55px;
+    
+}
+.tv2 p{
+    color: white;
+    font-size: 28px;
+}
+.tv2 .tv2-img{
+    height: 50%;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-bottom: 10px solid #222;
+flex-direction: row;
+}
+.phone .text-section3{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.phone .text-section3 h1{
+    color: white;
+    font-size: 55px;
+    
+}
+.phone p{
+    color: white;
+    font-size: 28px;
+    
+}
+.phone .phone-img{
+    height: 50%;
+}
+.ct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-bottom: 10px solid #222;
+    flex-direction:row ;
+}
+.ct .text-section5{
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.ct .text-section5h1{
+    color: white;
+    font-size: 55px;
+    
+}
+.ct p{
+    color: white;
+    font-size: 28px;
+}
+.ct .ct-img{
+    height: 50%;
+    
+}
+.faq{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 10px solid #222;
+    
+    
+}
+.faq h1{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 55px;
+    font-size: 58px;
+    
+}
+.faq .faq1{
+    background-color:#303030;
+    width: 60%;
+    padding-top: 40px;
+    text-align: left;
+    font-size: 30px;
+    padding: 22px 40px;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.faq .faq2{
+    background-color:#303030;
+    width: 60%;
+    padding-top: 40px;
+    text-align: left;
+    font-size: 30px;
+    padding: 22px 40px;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.faq .faq3{
+    background-color:#303030;
+    width: 60%;
+    padding-top: 40px;
+    text-align: left;
+    font-size: 30px;
+    padding: 22px 40px;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.faq .faq4{
+    background-color:#303030;
+    width: 60%;
+    padding-top: 40px;
+    text-align: left;
+    font-size: 30px;
+    padding: 22px 40px;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.faq .faq5{
+    background-color:#303030;
+    width: 60%;
+    padding-top: 40px;
+    text-align: left;
+    font-size: 30px;
+    padding: 22px 40px;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.faq .faq6{
+    background-color:#303030;
+    width: 60%;
+    padding-top: 40px;
+    text-align: left;
+    font-size: 30px;
+    padding: 22px 40px;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.faq p{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 23px;
+    
+}
+
+.faq form{
+    
+    display: flex;
+    height: 60px;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 60px;
+    
+    
+}
+.faq form input{
+    width: 70%;
+    height: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: larger;
+}
+.faq form button{
+    width: 30%;
+    height: 100%;
+    border-radius: 2px;
+    background-color: #e50914;
+    color-scheme: white;
+    border: none;
+    font-size: 25px;
+
+}
+.ft{
+    color: #222;
+    background-color: black;
+    align-items: center;
+    padding: 40px 100px;
+    
+}
+.ft .lists{
+    
+    color: rgb(85, 83, 83);
+    
+    text-align: left;
+    font-size: 18px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+ .ft p{
+    background-color: black;
+    font-size: 20px;
+    color: rgb(85, 83, 83);
+    text-align: left;
+    
+}
